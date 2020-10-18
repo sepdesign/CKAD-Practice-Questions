@@ -129,7 +129,7 @@ kubectl get pods --show-labels
 kubectl label pod nginx-dev{1..3} env-
 kubectl label pod nginx-prod{1..2} env-
 
-kubectl get po --show-labels
+kubectl get pod --show-labels
 ```
 </p>
 </details>
@@ -204,7 +204,7 @@ kubectl create -f pod.yaml
 <p>
    
 ```
-kubectl describe po nginx | grep Node-Selectors
+kubectl describe pod nginx | grep Node-Selectors
 ```
 </p>
 </details>
